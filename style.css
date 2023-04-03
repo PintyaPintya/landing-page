@@ -1,0 +1,165 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    height: 75px;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+/* First Section */
+.one{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    gap: 100px;
+}
+.one img{
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+.one p{
+    flex-wrap: wrap;
+}
+.one div{
+    width: 500px;
+}
+.one h1{
+    margin: 0;
+}
+
+/* Second Section */
+.two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.two ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    gap: 50px;
+    text-align: center;
+}
+.two img{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Third Section */
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.three h2{
+    width: 1000px;
+}
+.three h2:last-child{
+    text-align: end;
+    margin-right: 150px;
+}
+
+
+/* Fourth Section */
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.four > div{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding-left: 50px;
+}
+.four h3{
+    margin-bottom: 0;
+}
+.four p{
+    margin-top: 0;
+}
+button{
+    flex-shrink: 0;
+    margin-right: 100px;
+    padding: 10px 20px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Coloring & font*/
+header, footer, .one{
+    background-color: #1f2937;
+}
+header h2{
+    color: #f9faf8;
+}
+.one h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+header li, .one p, footer{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button, .four > div{
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.two h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.three{
+    background-color: #e5e7eb;
+}
+.three h2:first-child{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
